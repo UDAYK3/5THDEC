@@ -1,0 +1,22 @@
+
+.table{
+    background-color: rgb(243, 123, 11);
+    border-color: chartreuse;
+    border-width: 20px;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    padding-left: 50px;
+    padding-right: 50px;
+}
+.row2{
+    background-image: url();
+    background-color: darkcyan;    
+}
+.row1{
+    background-color: darkslategrey;
+    transition: 400ms;   
+}
+td img:hover{
+    filter: brightness(1.9);
+    transform: scale(1.03);
+}

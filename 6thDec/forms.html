@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body style="background-color: rgb(88, 149, 129);">
+    <h1>Job Application Form</h1>
+    <h3>Please fill the given details below.</h3>
+    <form>
+        <lable>Applicant Name:</lable><br>
+        <input type="text" placeholder="*First name"><br>
+
+        <lable>Graduation:</lable><br>
+        <input type="text" placeholder="*Name of degree"><br>
+
+        <lable>Gender</lable><br>
+        <input type="radio" id="male" name="Gender" value="Male">
+        <lable for="Male">Male</lable>
+        <input type="radio" id="female" name="Gender" value="Female">
+        <lable for="Female">Female</lable><br>
+
+        <lable>Email Address:</lable><br>
+        <input type="email" placeholder="*Enter mail id"><br>
+
+        <lable>About yourself in some lines:</lable><br>
+        <textarea name="*write some lines about yourself" rows="5" cols="90"></textarea><br>
+
+        <lable>Contact Number</lable><br>
+        <input type="text" placeholder="*Mobile Number"><br>
+
+        <lable>State:</lable><br>
+        <select type="dropdown" name="" >
+            <option value="option"></option>
+            <option value="option1">Andhrapradesh</option>
+            <option value="option2">Arunachal Pradesh</option>
+            <option value="option3">Gujarat</option>
+            <option value="option4">Haryana</option>
+            <option value="option5">Himachal Pradesh</option>
+            <option value="option6">Madhya Pradesh</option>
+            <option value="option7">Manipur</option>
+            <option value="option8">Rajastan</option>
+            <option value="option9">Tamil Nadu</option>
+            <option value="option10">Telangana</option>
+            <option value="option11">Karnataka</option>
+        </select><br>    
+        
+        <lable>City Name:</lable><br>
+        <select type="dropdown" name="" >
+            <option value="option"></option>
+            <option value="option1">Mumbai</option>
+            <option value="option2">Delhi</option>
+            <option value="option3">Bangalore</option>
+            <option value="option4">Ahmadabad</option>
+            <option value="option5">Chennai</option>
+            <option value="option6">Kolkata</option>
+            <option value="option7">Pune</option>
+            <option value="option8">Jaipur</option>
+            <option value="option9">Hyderabad</option>
+            <option value="option10">Kocchi</option>
+            <option value="option11">Gurugon</option>
+        </select><br>    
+
+
+        <lable>Area Name:</lable><br>
+        <input type="text" placeholder="Enter Area name"><br>
+
+        <lable>Pincode:</lable><br>
+        <input type="text" placeholder="*Enter Pincode"><br>
+
+        
+        <lable>Permanent Address:</lable><br>
+        <textarea name="" rows="3" cols="70"></textarea>
+
+        <br><br>
+
+        <p>Show a file-select field which allows a file to be chosen for upload:</p>
+        <lable for="myfile">Select a file:</lable><br>
+        <input type="file" id="myfile" name="myfile">
+
+        <br><br>
+
+        
+        <lable>Click here to submit your details.</lable><br>
+        <input type="submit" onclick="alert(submited)" value="Submit">
+        
+
+        
+    </form>
+    
+</body>
+</html>

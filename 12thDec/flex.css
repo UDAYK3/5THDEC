@@ -1,0 +1,16 @@
+
+main{
+    display: grid;
+    grid-template-columns: auto auto auto;
+    gap: 10px;
+    padding-top: 350px;
+    padding-left: 350px;
+    padding-right: 350px;
+    padding-bottom: 350px;
+    transition: 400ms;
+    background-color: darkcyan;
+}
+div:hover{
+    filter: brightness(1.9);
+    transform: scale(1.03);
+}
